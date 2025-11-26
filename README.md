@@ -6,6 +6,8 @@ MHMiLQR.jl is a Julia package for unconstrained trajectory optimization. It impl
 
 The implementation also efficiently handles states that lie on a manifold, such as the SO(3) group in the case of quaternions, by projecting partial derivatives onto the manifold.
 
+For usage, please consult the [stable documentation](https://jurajlieskovsky.github.io/MHMiLQR.jl/stable/).
+
 ## Metadata
 
 ```
