@@ -1,5 +1,6 @@
 # MHMiLQR.jl - Minimal Hessian Modification iLQR
-[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://jurajlieskovsky.github.io/MHMiLQR.jl/dev/)
+[![stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://jurajlieskovsky.github.io/MHMiLQR.jl/stable/)
+[![dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://jurajlieskovsky.github.io/MHMiLQR.jl/dev/)
 
 MHMiLQR.jl is a Julia package for unconstrained trajectory optimization. It implements regularization using minimal Hessian modification (MHM) on top of the iterative linear-quadratic regulator (iLQR), as proposed in [[1]](#1). This form of regularization makes the algorithm particularly adept at solving highly non-convex problems.
 
