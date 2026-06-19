@@ -25,4 +25,5 @@ Keywords: trajectory optimization, optimal control, dynamic programming
 ---
 
 <a id="1">[1]</a>
-Lieskovský, J., Bušek, J., and Vyhlídal, T. (2025). iLQR Regularization using Minimal Hessian Modification. In: 2025 European Control Conference (ECC), preprint submitted Nov 14, 2025.
+Lieskovský, J., Bušek, J., and Vyhlídal, T. (2026). iLQR Regularization Using Minimal Hessian Modification. In: 34th Mediterranean Conference
+on Control and Automation.
