@@ -179,8 +179,8 @@ struct Workset{T}
         backward_pass_workset = BackwardPassWorkset{T}(ndx, nu)
 
         coordinate_jacobians = ndx != nx ? CoordinateJacobians{T}(nx, ndx, N) : nothing
-        dynamics_derivatives_workset = ndx != nx ? DynamicsDerivatives{T}(nx, nu, nthreads()) : nothing
-        cost_derivatives_workset = ndx != nx ? CostDerivatives{T}(nx, nu, nthreads()) : nothing
+        dynamics_derivatives_workset = ndx != nx ? DynamicsDerivatives{T}(nx, nu, Threads.maxthreadid()) : nothing
+        cost_derivatives_workset = ndx != nx ? CostDerivatives{T}(nx, nu, Threads.maxthreadid()) : nothing
 
         return new(
             N, nx, ndx, nu, 1, 2,

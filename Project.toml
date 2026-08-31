@@ -1,7 +1,7 @@
 name = "MHMiLQR"
 uuid = "cc6f6f65-08c7-49b2-9c9b-e23214e815ad"
-authors = ["Juraj Lieskovský <lieskovsky.juraj@gmail.com>"]
 version = "0.1.0"
+authors = ["Juraj Lieskovský <lieskovsky.juraj@gmail.com>"]
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
